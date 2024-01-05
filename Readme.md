@@ -1,4 +1,4 @@
-# Punjabi Emotion Transformer Model
+# Punjabi Emotion Classifier Transformer Model
 
 This repo conatins steps on how to create your Transformer model for Punjabi Language which is a Indic language with more than 25 million 
 speakers.
@@ -11,7 +11,7 @@ from them.
 
 3. Data Handling and Data crunching - For data handling we have used pytorch classes to handle data.
 
-## creating Neural networks for Fine Tuning
+## Creating Neural networks for Fine Tuning
 
 1. We will be creating a neural network with the RobertaClass.
 2. This network will have the Roberta Language model followed by a dropout and finally a Linear layer to obtain the final outputs.
